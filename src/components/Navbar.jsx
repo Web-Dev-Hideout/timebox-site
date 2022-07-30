@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Logo from '../imges/logo.png'
 const Navbar = () => {
     return (
         <nav>
-            <h1>test</h1>
+            <figure>
+                <img src={Logo} alt="" />
+            </figure>
         </nav>
     );
 }
