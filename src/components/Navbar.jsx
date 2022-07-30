@@ -6,8 +6,8 @@ const Navbar = () => {
             <figure>
                 <img src={Logo} alt="" />
             </figure>
-        </nav>
-    );
+            </nav>
+    )
 }
 
-export default Navbar;
+export default Navbar
